@@ -59,13 +59,13 @@ MATLAB with Image Processing Toolbox installed
 Running Code
 ------------
 
-a) Add the path of the extract.m/extract2.m file to that of the MATLAB
-b) From the command window of Matlab, call the function in the following manner
-	>> extract2('Demo_d.jpg',4);	
-   Here the number 4 indicates the file Demo_d.jpg, Similarly enter 1 for Demo_a.jpg, 2 for Demo_b.jpg and 3 for Demo_c.jpg. These numbers make the code to choose binary thresholding value according to the image, automated version of the code will be updated in the future versions. 
-   Similarly, if you want to run extract.m,
-	>> extract('Demo_d.jpg');
-   This code is meant especially for the image Demo_d.jpg for better number plate extraction. Users can choose one of the codes according to the quality of extraction
+1. Add the path of the extract.m/extract2.m file to that of the MATLAB
+2. From the command window of Matlab, call the function in the following manner  
+	>> extract2('Demo_d.jpg',4);  
+   Here the number 4 indicates the file Demo_d.jpg, Similarly enter 1 for Demo_a.jpg, 2 for Demo_b.jpg and 3 for Demo_c.jpg. These numbers make the code to choose binary thresholding value according to the image, automated version of the code will be updated in the future versions.  
+   Similarly, if you want to run extract.m,  
+	>> extract('Demo_d.jpg');  
+   This code is meant especially for the image Demo_d.jpg for better number plate extraction. Users can choose one of the codes according to the quality of extraction.
 
 Contribute
 ----------
